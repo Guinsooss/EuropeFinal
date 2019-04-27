@@ -1,0 +1,165 @@
+/* Styling for the title on veince page */
+.venice {
+    padding-left: 47vw;
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* Styling for paragraph on venice page */
+p {
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* Styling for button positioning and hover effect */
+.btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 1vw;
+    cursor: pointer;
+    float: left;
+    border-radius: 13px;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+/* Styling for translate button and hover effect */
+.btn1 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 0.7vw;
+    cursor: pointer;
+    float: right;
+    border-radius: 13px;
+}
+
+.btn1:hover {
+    background-color: RoyalBlue;
+}
+
+/* Styling for both button's margin from the top */
+.btn,
+.btn1 {
+    margin-top: 1vw;
+}
+
+/* Styling for greece title */
+.greecetitle {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+/* Body background colour */
+body {
+    background-color: mintcream;
+}
+
+/* Styling for paragraph on greece page */
+.greeceparagraph {
+    padding-top: 1vh;
+    font-size: 1.25vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+/* Styling for greece gallery */
+.greecegallery {
+    padding-top: 3vh;
+    padding-left: 11vw;
+}
+
+/* Styling for section 1's heading on home page */
+.page1 h1 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+section.page1 {
+    color: black;
+}
+
+/* Styling for croatia title */
+.croatiatitle {
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Tangerine', cursive;
+}
+
+/* Styling for croatia paragraph */
+.croatiaparagraph {
+    padding-top: 1vh;
+    font-size: 3vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: 'Tangerine', cursive;
+}
+
+/* Styling for paris title */
+.paristitle {
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/* Styling for paris paragraph */
+.parisparagraph {
+    padding-top: 1vh;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/* Styling for dubai gallery */
+
+.dubaigallery {
+    padding-top: 3vh;
+    padding-left: 11vw;
+}
+
+/* Styling for dubai title */
+.dubaititle {
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* Styling for dubai paragraph */
+.dubaiparagraph {
+    padding-top: 1vh;
+    font-size: 1vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* Styling for Barcelona title */
+.barcelonatitle {
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Ruda', sans-serif;
+}
+
+/* Styling for Barcelona paragraph */
+.barcelonaparagraph {
+    padding-top: 1vh;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: 'Ruda', sans-serif;
+}

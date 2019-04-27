@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Title -->
+    <title>Paris Photo Gallery </title>
+    <!-- Javascript for gallery -->
+    <script type='text/javascript' src='js/jquery-11.0.min.js'></script>
+    <script type='text/javascript' src='js/unitegallery.min.js'></script>
+    <!-- Style Sheet for page -->
+    <link rel='stylesheet' href='css/unite-gallery.css' type='text/css' />
+    <link rel='stylesheet' href='css/style.css' type='text/css' />
+    <!-- Javascript for gallery -->
+    <script type='text/javascript' src='js/ug-theme-tiles.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+<body>
+    <!-- Link to home button -->
+    <a href="index.html"><button class="btn"><i class="fa fa-home"></i>Home</button></a>
+    <!-- Tanslate button -->
+    <a href="paris.html"><button class="btn1">Translate to English</button><br></a>
+    <!-- Title -->
+    <div class="paristitle">Paris</div>
+    <!-- Paragraph for page -->
+    <div class="parisparagraph">Voici un album photo de la famille Bebelman à Paris, en France, avec la célèbre Tour Eiffel
+    </div>
+    <!-- Gallery -->
+    <div id="gallery" style="display:none;">
+
+
+        <img alt="View from Eiffel Tower" src="Paris/1.jpg" data-image="Paris/1.jpg" style="display:none">
+
+        <img alt="Eiffel Tower" src="Paris/2.jpg" data-image="Paris/2.jpg" style="display:none">
+
+        <img alt="Cathédrale Notre‑Dame de Paris" src="Paris/3.jpg" data-image="Paris/3.jpg" style="display:none">
+
+        <img alt="Painting" src="Paris/4.jpg" data-image="Paris/4.jpg" style="display:none">
+
+        <img alt="Mona Lisa" src="Paris/5.jpg" data-image="Paris/5.jpg" style="display:none">
+
+        <img alt="Building" src="Paris/6.jpg" data-image="Paris/6.jpg" style="display:none">
+
+        <img alt="War Memorial" src="Paris/7.jpg" data-image="Paris/7.jpg" style="display:none">
+
+        <img alt="Spiral Stairs" src="Paris/8.jpg" data-image="Paris/8.jpg" style="display:none">
+
+        <img alt="Statue" src="Paris/9.jpg" data-image="Paris/9.jpg" style="display:none">
+
+        <img alt="Arc de Triomphe" src="Paris/10.jpg" data-image="Paris/10.jpg" style="display:none">
+
+        <img alt="Eiffel Tower" src="Paris/11.jpg" data-image="Paris/11.jpg" style="display:none">
+
+        <img alt="Eiffel Tower" src="Paris/12.jpg" data-image="Paris/12.jpg" style="display:none">
+
+        <img alt="Building" src="Paris/13.jpg" data-image="Paris/13.jpg" style="display:none">
+
+        <img alt="Football world cup poster" src="Paris/14.jpg" data-image="Paris/14.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/15.jpg" data-image="Paris/15.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/16.jpg" data-image="Paris/16.jpg" style="display:none">
+
+        <img alt="Disney Land Castle" src="Paris/17.jpg" data-image="Paris/17.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/18.jpg" data-image="Paris/18.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/19.jpg" data-image="Paris/19.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/20.jpg" data-image="Paris/20.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/21.jpg" data-image="Paris/21.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/22.jpg" data-image="Paris/22.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/23.jpg" data-image="Paris/23.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/24.jpg" data-image="Paris/24.jpg" style="display:none">
+
+        <img alt="Hulk" src="Paris/25.jpg" data-image="Paris/25.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/26.jpg" data-image="Paris/26.jpg" style="display:none">
+
+        <img alt="Lake" src="Paris/27.jpg" data-image="Paris/27.jpg" style="display:none">
+
+        <img alt="Hotel" src="Paris/28.jpg" data-image="Paris/28.jpg" style="display:none">
+
+        <img alt="Disney Land Fire Works" src="Paris/29.jpg" data-image="Paris/29.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/30.jpg" data-image="Paris/30.jpg" style="display:none">
+
+        <img alt="Disney Land" src="Paris/31.jpg" data-image="Paris/31.jpg" style="display:none">
+
+        <img alt="Disney Land Admission" src="Paris/32.jpg" data-image="Paris/32.jpg" style="display:none">
+
+        <img alt="Disney Land Admission" src="Paris/33.jpg" data-image="Paris/33.jpg" style="display:none">
+
+        <img alt="Food Alley at Disney Land" src="Paris/34.jpg" data-image="Paris/34.jpg" style="display:none">
+
+        <img alt="Compass Club" src="Paris/35.jpg" data-image="Paris/35.jpg" style="display:none">
+
+    </div>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+
+            jQuery("#gallery").unitegallery({
+                // Gallery modification
+                tiles_type: "justified",
+                // Space between photos
+                tiles_justified_space_between: 10,
+                tile_enable_shadow: false,
+                // Border for images
+                tile_enable_border: true,
+                tile_enable_outline: false,
+                tiles_space_between_cols: 15,
+                tiles_justified_space_between: 15,
+                // Border colour
+                tile_border_color: "#949494",
+                // Border width
+                tile_border_width: 3,
+                // Column With
+                tiles_col_width: 235,
+                // Border radius for curves
+                tile_border_radius: 5,
+                theme_gallery_padding: 15,
+                gallery_width: "100%",
+                gallery_min_width: 250,
+                theme_gallery_padding: 80,
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

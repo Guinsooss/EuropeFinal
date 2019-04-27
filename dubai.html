@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Title -->
+    <title>Dubai Album</title>
+    <!-- Javascript for gallery -->
+    <script type='text/javascript' src="js/jquery-11.0.min.js"></script>
+    <script type='text/javascript' src="js/unitegallery.min.js"></script>
+    <!-- Style Sheet for page-->
+    <link rel='stylesheet' href="css/unite-gallery.css" type='text/css' />
+    <link rel='stylesheet' href="css/style.css" type='text/css' />
+    <!-- Javascript for page -->
+    <script type='text/javascript' src='js/ug-theme-compact.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+   <!-- Buttons -->
+    <a href="index.html"><button class="btn"><i class="fa fa-home"></i>Home</button></a>
+    <a href="dubaitrans.html"><button class="btn1">Translate to Arabic</button><br></a>
+    <!-- Title -->
+    <div class="dubaititle">Dubai</div>
+    <!-- Paragraph About page -->
+    <div class="dubaiparagraph">Here is a photo gallery of the Bebelman Family in Dubai, United Arab Emirates featuring the world famous waterpark and hotel Atlantis, the Palm</div>
+    <!-- Division for Gallery -->
+    <div class="greecegallery">
+        <div id="gallery" style="display:none;">
+
+            <img alt="Plane Wing" src="dubai/1.jpg" data-image="dubai/1.jpg" style="display:none">
+
+            <img alt="Boat Building" src="dubai/2.jpg" data-image="dubai/2.jpg" style="display:none">
+
+            <img alt="Lobby" src="dubai/3.jpg" data-image="dubai/3.jpg" style="display:none">
+
+            <img alt="Aquarium" src="dubai/4.jpg" data-image="dubai/4.jpg" style="display:none">
+
+            <img alt="View from the room" src="dubai/5.jpg" data-image="dubai/5.jpg" style="display:none">
+
+            <img alt="Aquarium" src="dubai/6.jpg" data-image="dubai/6.jpg" style="display:none">
+
+            <img alt="Lobby" src="dubai/7.jpg" data-image="dubai/7.jpg" style="display:none">
+
+            <img alt="Sand" src="dubai/8.jpg" data-image="dubai/8.jpg" style="display:none">
+
+            <img alt="Sand" src="dubai/9.jpg" data-image="dubai/9.jpg" style="display:none">
+
+            <img alt="Sun Set" src="dubai/10.jpg" data-image="dubai/10.jpg" style="display:none">
+
+            <img alt="Sunset" src="dubai/11.jpg" data-image="dubai/11.jpg" style="display:none">
+
+            <img alt="Sunset" src="dubai/12.jpg" data-image="dubai/12.jpg" style="display:none">
+
+            <img alt="Shisha pipe" src="dubai/13.jpg" data-image="dubai/13.jpg" style="display:none">
+
+            <img alt="Big Fish" src="dubai/14.jpg" data-image="dubai/14.jpg" style="display:none">
+
+            <img alt="Bar" src="dubai/15.jpg" data-image="dubai/15.jpg" style="display:none">
+
+            <img alt="Model of Atlantis Hotel" src="dubai/16.jpg" data-image="dubai/16.jpg" style="display:none">
+
+            <img alt="Model of Atlantis Hotel" src="dubai/16.jpg" data-image="dubai/16.jpg" style="display:none">
+
+            <img alt="Gordon Ramsay" src="dubai/17.jpg" data-image="dubai/17.jpg" style="display:none">
+
+            <img alt="Gordon Ramsay" src="dubai/18.jpg" data-image="dubai/18.jpg" style="display:none">
+
+            <img alt="Bar" src="dubai/19.jpg" data-image="dubai/19.jpg" style="display:none">
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+
+            jQuery("#gallery").unitegallery({
+                // Gallery Modifications
+                gallery_theme: "compact",
+                slider_scale_mode: "down",
+                // Width
+                gallery_width: 1200,
+                // Height
+                gallery_height: 600,
+                slider_transition: "fade",
+                // Transition speed
+                slider_transition_speed: 400,
+                slider_transition_easing: "easeInOutQuad",
+                gallery_autoplay: true,
+                // Intervil between pictures
+                gallery_play_interval: 5000,
+                gallery_pause_on_mouseover: true,
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
